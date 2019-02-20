@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.luokeke.mapper.OrderMapper">
+    <insert id="insertOrder" >
+        insert into OrderInfo (orderNo, createTime) values (#{orderNo}, #{createTime})
+    </insert>
+    
+    <update id="paySuccess">
+        update OrderInfo set status = '1', paySuccessTime = #{paySuccessTime} where orderNo = #{orderNo}
+    </update>
+</mapper>
