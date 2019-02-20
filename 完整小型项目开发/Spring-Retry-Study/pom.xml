@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.luokeke</groupId>
-	<artifactId>Spring.Retry.Study</artifactId>
+	<artifactId>Spring-Retry-Study</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Spring.Retry.Study</name>
 	<description>Demo project for Spring Boot</description>
